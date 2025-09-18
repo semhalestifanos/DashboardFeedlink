@@ -15,10 +15,10 @@ interface SidebarProps {
 
 const Sidebar = ({ activePath }: SidebarProps) => {
   const menuItems = [
-    { label: "Dashboard", href: "/dashboard", icon: <FiGrid size={20} /> },
-    { label: "Inventory", href: "/dashboard/Inventory", icon: <FiBox size={20} /> },
-    { label: "Waste Claims", href: "/dashboard/WasteClaims", icon: <FiTrash2 size={20} /> },
-    { label: "Orders", href: "/dashboard/Orders", icon: <FiShoppingCart size={20} /> },
+    { label: "Dashboard", href: "/dashboard", icon: <FiGrid size={19} /> },
+    { label: "Inventory", href: "/dashboard/Inventory", icon: <FiBox size={19} /> },
+    { label: "Waste Claims", href: "/dashboard/WasteClaims", icon: <FiTrash2 size={19} /> },
+    { label: "Orders", href: "/dashboard/Orders", icon: <FiShoppingCart size={19} /> },
   ];
 
   return (
